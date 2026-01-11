@@ -16,13 +16,15 @@
   - No fiduciary, advisory, or predictive claims
 
 ## Product Ecosystem
-- Unified ecosystem with shared principles and capabilities
+- A unified ecosystem with shared principles and capabilities
 - Each product addresses a different decision domain
 - Connected by a common reasoning layer
 
 ## Fellowship Executive Intelligence
 - Purpose
   - Support business owners and executives in managing complex organizations
+- Focus
+  - Cross-functional clarity across finance, operations, marketing, customer experience, people, inventory, and governance
 - Value Provided
   - Structured executive-level insight
   - Cross-functional clarity without operational noise
@@ -32,20 +34,24 @@
 ## Fellowship Market Intelligence
 - Purpose
   - Help individuals understand markets with discipline and context
+- Focus
+  - Market structure, regimes, volatility context, relative performance
 - Value Provided
   - Contextual awareness over reactive signal-chasing
-  - Insight into “what is happening,” not “what to do”
+  - Insight into what is happening, not what to do
 - Disclaimer
   - Not investment advice; no recommendations, forecasts, or guarantees
 
 ## Fellowship Systems Lab
 - Purpose
   - Design and build custom intelligence systems
+- Focus
+  - Bespoke applications and decision-support tooling
 - Value Provided
   - Translation of business logic into working systems
   - Emphasis on clarity, safety, and maintainability
 - Disclaimer
-  - Systems design/development only; no delegated decision-making
+  - Systems design and development only; no delegated decision-making
 
 ## Shared Capability: Focus
 - What it is
