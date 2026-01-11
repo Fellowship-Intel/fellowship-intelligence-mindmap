@@ -1,14 +1,22 @@
 (async function () {
-  // Fetch markdown from a file (avoids inline templates)
+  // Load markdown
   const res = await fetch('./mindmap.md', { cache: 'no-store' });
+  if (!res.ok) {
+    console.error('Failed to load mindmap.md', res.status, res.statusText);
+    return;
+  }
   const markdown = await res.text();
 
-  // Markmap globals provided by markmap-lib view bundle
-  const { Markmap } = window.markmap;
+  // Markmap globals
+  const { Transformer, Markmap } = window.markmap;
 
-  // Render
+  // Transform markdown -> tree
+  const transformer = new Transformer();
+  const { root } = transformer.transform(markdown);
+
+  // Render tree -> SVG
   Markmap.create('#mm', {
     color: () => '#ffffff',
     nodeFont: 'Inter, Arial, sans-serif'
-  }, markdown);
+  }, root);
 })();
