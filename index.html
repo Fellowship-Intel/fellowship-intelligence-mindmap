@@ -1,9 +1,23 @@
-  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fellowship Intelligence Mind Map</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
 
-  <!-- Markmap core + transformer -->
-  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.15.4/dist/browser/index.min.js"></script>
+<body>
+  <div class="wrap">
+    <svg id="mm" aria-label="Fellowship Intelligence mind map"></svg>
+  </div>
 
-  <!-- Markmap renderer/view -->
-  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.15.4/dist/browser/view.min.js"></script>
+  <!-- Local vendor scripts (same-origin avoids CORB/CDN issues) -->
+  <script src="./vendor/d3.min.js"></script>
+  <script src="./vendor/markmap-index.min.js"></script>
+  <script src="./vendor/markmap-view.min.js"></script>
 
-  <script src="app.js"></script>
+  <!-- Your app script -->
+  <script src="./app.js"></script>
+</body>
+</html>
